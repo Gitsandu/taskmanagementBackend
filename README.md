@@ -58,7 +58,6 @@ npm start
 ```
 
 The server will start on the port specified in your .env file (default: 5000).
-- API: http://localhost:5000/api
 - API Documentation: http://localhost:5000/api-docs
 
 ## API Endpoints
@@ -164,10 +163,6 @@ curl -X POST http://localhost:5000/api/auth/login \
 - Check that the token is being sent in the Authorization header as "Bearer [token]"
 - Verify that the token hasn't expired
 
-## License
-
-[MIT](LICENSE)
-
 ## Contact
 
-For any questions or support, please contact [your-email@example.com].
+For any questions or support, please contact [mbsandu21@gmail.com].
