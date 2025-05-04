@@ -23,8 +23,8 @@ A comprehensive RESTful API for task management built with Node.js, Express, and
 
 1. Clone the repository:
    ```
-   git clone <repository-url>
-   cd task-management-api
+   git clone git@github.com:Gitsandu/taskmanagementBackend.git
+
    ```
 
 2. Install dependencies:
@@ -37,12 +37,11 @@ A comprehensive RESTful API for task management built with Node.js, Express, and
    NODE_ENV=development
    PORT=5000
    MONGO_URI=mongodb://localhost:27017/task-management
-   JWT_SECRET=your_jwt_secret_key_here
+   JWT_SECRET=d9bX2hD7ZqNwS3mQvYl5B8e4JrU1K6vGqHc0ZxTtMpWnAoLdFiUsXeRgYjCnVmKp
    FRONTEND_URL=http://localhost:5713
    ```
 
    Notes:
-   - Replace `your_jwt_secret_key_here` with a strong random string
    - If using MongoDB Atlas, replace the MONGO_URI with your connection string
    - Adjust FRONTEND_URL to match your frontend application URL
 
